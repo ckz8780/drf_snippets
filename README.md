@@ -11,11 +11,11 @@ This little app allows the submission and syntax highlighting of code snippets. 
 ## Usage: 
 
 1. `git clone` or download/extract this repo.
-2. Create a [virtual environment](https://virtualenv.pypa.io/en/stable/userguide/#usage) (`virtualenv env_name`)
-3. cd into and activate your venv (`source bin/activate` or `path\to\env\Scripts\activate`)
-4. `sudo pip install -r requirements.txt`
+2. Create a [virtual environment](https://virtualenv.pypa.io/en/stable/userguide/#usage): `virtualenv env_name` or `python -m virtualenv env_name` to run as a module
+3. cd into and activate your venv: `source bin/activate` (Posix) or `path\to\env\Scripts\activate` (Windows)
+4. `sudo pip install -r requirements.txt` (Posix) or `pip install -r requirements.txt` w/ admin privileges (Windows)
 5. Make/run migrations: `python manage.py makemigrations`, `python manage.py migrate`
-6. Create a superuser `python manage.py createsuperuser`
+6. Create a superuser: `python manage.py createsuperuser`
 7. Run the dev server: `python manage.py runserver`
 8. Navigate to http://127.0.0.1:8000
 
