@@ -1,3 +1,3 @@
 # Welcome
 
-This is a little app to play with the django rest framework.
+This little app allows the submission and syntax highlighting of code snippets. It is backed by the Django REST Framework.
